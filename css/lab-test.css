@@ -1,0 +1,83 @@
+body{
+    margin: 0%;
+}
+
+.lab_test{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);  
+    margin: 3% 5%;
+    overflow-y: scroll;
+    height: 75vh;
+}
+
+.form, .image{    
+    width: 50%;
+    display: inline-block;
+}
+
+.image{
+    float: right;
+    height: 900px;
+    background-image: url("../Images/Lab-Test/lab-test.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form div{
+    margin-left: 4em;
+}
+
+.form input{
+    border: 0px;
+    outline: 0px;
+    border-bottom: 2px solid rgb(156, 154, 154);
+}
+
+.form h3{
+    padding-left: 1.5em;
+    padding-top: 1.5em;
+}
+
+input{
+    margin-left: 2em;
+    padding-top: 1.5em;
+}
+
+select{
+    margin-left: 2em;
+}
+
+label[for="district"]{
+    margin: 1.2em 0 0 1.75em;
+    display: block;
+    font-weight: bold;
+}
+
+input[type="datetime-local"]{
+    margin-bottom: 4em;
+}
+
+.btn{
+    position: absolute;
+    right: 55%;
+    padding-bottom: 3em;
+}
+
+.btn button{
+    color: white;
+    background-color: rgb(162, 84, 236);
+    border: none;
+    border-radius: 2px;
+    padding: 0.25em;
+    font-size: 1.2em;
+    margin: 0 1em;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);    
+}
+
+.btn button:hover{
+    cursor: pointer;
+}
+
+.btn button:active{
+    background-color: rgb(145, 54, 231);;
+}
